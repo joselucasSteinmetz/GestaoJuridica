@@ -7,6 +7,9 @@ public class advogado extends Pessoa {
     
     //GERADORES
 
+    public advogado() {
+    }
+
     //MÉTODOS
 
     //GETTERS AND SETTERS
