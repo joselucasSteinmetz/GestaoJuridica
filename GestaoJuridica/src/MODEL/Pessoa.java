@@ -16,7 +16,7 @@ public abstract class Pessoa {
         private String nome;
         private int cpf;
         private int ID;
-        public ArrayList ListaTarefas;
+        public static ArrayList<String> ListaTarefas;
        
     //GERADORES
 
@@ -58,5 +58,13 @@ public abstract class Pessoa {
             this.ID = ID;
         }
 
+        /*public void MostrarTarefas(ArrayList Lista) {
+            Lista.toString();
+        }
 
+        public void setListaTarefas(ArrayList<String> ListaTarefas) {
+            this.ListaTarefas = ListaTarefas;
+        }
+
+*/
 }
